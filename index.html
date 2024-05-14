@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-title">
+            Format Validator
+        </div>
+        <table>
+            <div class="input-container">
+                <tr>
+                    <td>
+                        <label>
+                            Name:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Age:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="number" name="age" id="age"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            E-mail:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" name="e-mail" id="e-mail"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Aadhar Number:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" id="Aadhar" name="aadhar" maxlength="12"/>
+                        <button type="submit" id="aadhar-verify">Validate</button>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> <label>
+                            Voter ID:
+                        </label></td>
+                    <td><input type="text" id="voterid" name="voterid" maxlength="10"/>
+                        <button type="submit" id="voter-verify">Validate</button>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" id="submit-ans">Submit</button></td>
+                </tr>
+            </div>
+        </table>
+        <img src="web.jpg" alt="Image">
+    </div>
+</body>
+
+</html>
